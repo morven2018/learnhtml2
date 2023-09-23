@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--second-color);
+    padding: 40px 146px;
+    align-items: center;
+}
+
+.purple-logo {
+    display: flex;
+    gap: 20px;
+    font-size: var(--text-size24);
+    font-weight: var(--bold);
+    font-family: var(--purple-font);
+    align-items: center;
+
+}
+
+.purple-logo__image {
+    width: 48px;
+    height: 48px;
+}
+
+.navigation--buttonlist {
+    list-style: none;
+    display: flex;
+    font-size: var(--text-size18);
+    column-gap: 20px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    align-items: center;
+}
+
+.item1 {
+    border: solid var(--button-border);
+    border-width: 1px;
+}
+
+.item4 {
+    color: var(--grey-color);
+}
+
+.accont {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.accont__image {
+    width: 24px;
+    height: 24px;
+}
